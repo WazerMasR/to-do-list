@@ -188,7 +188,7 @@ body {
 .toast {
   position: fixed;
   top: -60px;
-  right: 0;
+  right: 10px;
   background-color: #28a745; 
   color: white;
   padding: 12px 25px;
