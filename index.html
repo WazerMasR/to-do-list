@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Import Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Import Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--add dir => to edit dir when i want  -->
+    <div dir="ltr">
+      <div id="input-container">
+        <input id="input" type="text" placeholder="Enter your task" autocomplete="off"> 
+        <button id="add-task">Add Task</button>
+      </div>
+
+      </div>
+      <div class="flex">
+        <div class="tasks-table">
+          <div class="header-tasks">
+            </span>
+            <h1 style="display: inline" id="h1-my-tasks">My tasks</h1>
+            <button class="btn circle" aria-label="Add Task" id="btn-add-post">
+              <span class="material-icons">
+                post_add
+                </span>
+            </button>
+          </div>
+          <div class="table" id="tasks"></div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
