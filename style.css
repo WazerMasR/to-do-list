@@ -189,7 +189,6 @@ body {
   position: fixed;
   top: -60px;
   right: 0;
-  transform: translateX(-50%); 
   background-color: #28a745; 
   color: white;
   padding: 12px 25px;
